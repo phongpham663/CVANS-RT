@@ -23,3 +23,12 @@ python3
 pyqt5
 qdarkstyle
 opencv
+
+## Release notes
+### Version 2022.1.0
++ Fixed a problem with Tracker not working with WebCam and ScreenCap sources
++ Improved Tracker objects metadata handling.
++ Created and exposed Clear Readahead Queue method to Lua. (It allows using readahead thread together with delays to simulate stream latency)
++ Enabled DirectX ScreenCap plugin on Windows.
++ Improvements on manual FPS mechanism for video sources.
++ Other stability improvements and bugfixes.
